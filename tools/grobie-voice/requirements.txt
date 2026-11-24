@@ -1,0 +1,10 @@
+# First-party grobie-voice runtime (install into a venv).
+# Models are NOT included. Place Kokoro ONNX files in ./models or set GROBIE_VOICE_MODELS.
+numpy
+soundfile
+praat-parselmouth
+pedalboard
+kokoro-onnx
+onnxruntime
+# optional Piper backend:
+# piper-tts

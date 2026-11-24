@@ -1,0 +1,696 @@
+{
+  "name": "Grobie",
+  "written_name": "Grobie",
+  "spoken_name": "Groby",
+  "pronunciation": "GROH-bee",
+  "version": "2026-11-24",
+  "home": "https://grobie.slopcore.army/",
+  "license": {
+    "id": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "text": "https://grobie.slopcore.army/LICENSE.txt",
+    "request": "Please keep Grobie PG-13 (a request, not a license condition).",
+    "voice_engine": "Kokoro-82M",
+    "voice_engine_license": "Apache-2.0",
+    "covers": "All Grobie character art, character sheets, the character bible, the video kit, approved voice clips, and the WARP978 v2 lyrics and cue sheet are CC0 1.0 Universal. First-party software tools under /tools/ use free, commercially usable open-source licenses chosen for quality: grobie-voice, grobie-image, and build_character_sheet_v2.py are GNU GPLv3; grobie-mv (assemble_mv.py) is MIT. Upstream dependencies may use any free, commercially usable open-source license (MIT, Apache-2.0, BSD, LGPL, GPL, CC0, OFL, ISC, and others). Non-commercial-only models (InsightFace, FLUX.1-dev, LRS2) and paid or rented GPU services are excluded.",
+    "tools": {
+      "policy": "Any free, commercially usable open-source license, chosen for quality.",
+      "programs": {
+        "grobie-voice": "GPL-3.0-or-later",
+        "grobie-image": "GPL-3.0-or-later",
+        "build_character_sheet_v2.py": "GPL-3.0-or-later",
+        "grobie-mv": "MIT"
+      },
+      "gpl": "https://grobie.slopcore.army/tools/LICENSE-GPLv3.txt",
+      "mit": "https://grobie.slopcore.army/tools/LICENSE-MIT.txt",
+      "url": "https://grobie.slopcore.army/tools/LICENSE-GPLv3.txt",
+      "third_party": "https://grobie.slopcore.army/tools/THIRD-PARTY-LICENSES.md",
+      "readme": "https://grobie.slopcore.army/tools/README.md",
+      "zip": "https://grobie.slopcore.army/tools/grobie-free-tools.zip",
+      "zip_gplv3": "https://grobie.slopcore.army/tools/grobie-free-tools-gplv3.zip",
+      "id": "free-OSS-per-program",
+      "name": "Free commercially usable open-source licenses (per program)"
+    }
+  },
+  "usage": {
+    "any_software": "This package is tool-agnostic. Point any image, video, or voice tool at the absolute URLs in this file, or download the ZIP packs. No vendor plugin, browser, or internal script is required.",
+    "images": "Every canonical visual has a standard JPEG plus a PNG master. Use the JPEG for everyday reference; use the PNG 4K master when the tool accepts a large still.",
+    "audio": "Every primary voice clip has uncompressed PCM WAV (16-bit, 44.1 kHz stereo, except the base DEATH-style WAV, which is 16-bit 24 kHz stereo as originally mastered) plus MP3. Prefer WAV for lip-sync and voice tools; MP3 is for compact playback.",
+    "prompt": "PROMPT.txt and the prompt fields below are plain UTF-8 text for copy-paste or automated ingest."
+  },
+  "character_sheet": {
+    "id": "character-sheet-v2",
+    "title": "Master character sheet v2",
+    "role": "LEAD canonical plate: studio composite of the locked outfit, proportions, head and body turnarounds, visemes, palette, specs, and Anchor/Cyber-Mech previews.",
+    "jpg": {
+      "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-character-sheet-v2.jpg",
+      "path": "character/v2-video-kit/grobie-character-sheet-v2.jpg",
+      "bytes": 520241,
+      "md5": "82df11a38440136481d67a80f4c97921",
+      "width": 1920,
+      "height": 1080
+    },
+    "png": {
+      "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-character-sheet-v2-4k.png",
+      "path": "character/v2-video-kit/grobie-character-sheet-v2-4k.png",
+      "bytes": 4453335,
+      "md5": "1f291a93a244e61bd7c8f408ba037f85",
+      "width": 3840,
+      "height": 2160
+    },
+    "thumb": {
+      "url": "https://grobie.slopcore.army/thumbs/grobie-character-sheet-v2.webp",
+      "path": "thumbs/grobie-character-sheet-v2.webp",
+      "bytes": 39106,
+      "md5": "a315925709bf38f2b0170e464ebd246c",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "canonical": [
+    {
+      "id": "character-sheet-v2",
+      "title": "Master character sheet v2",
+      "role": "LEAD canonical plate",
+      "jpg": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-character-sheet-v2.jpg",
+        "path": "character/v2-video-kit/grobie-character-sheet-v2.jpg",
+        "bytes": 520241,
+        "md5": "82df11a38440136481d67a80f4c97921",
+        "width": 1920,
+        "height": 1080
+      },
+      "png": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-character-sheet-v2-4k.png",
+        "path": "character/v2-video-kit/grobie-character-sheet-v2-4k.png",
+        "bytes": 4453335,
+        "md5": "1f291a93a244e61bd7c8f408ba037f85",
+        "width": 3840,
+        "height": 2160
+      },
+      "thumb": {
+        "url": "https://grobie.slopcore.army/thumbs/grobie-character-sheet-v2.webp",
+        "path": "thumbs/grobie-character-sheet-v2.webp",
+        "bytes": 39106,
+        "md5": "a315925709bf38f2b0170e464ebd246c",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "outfit-master-v2",
+      "title": "Outfit master v2",
+      "role": "Outfit, collar, and badge lock",
+      "jpg": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-outfit-master-v2.jpg",
+        "path": "character/v2-video-kit/grobie-outfit-master-v2.jpg",
+        "bytes": 227610,
+        "md5": "4212236991302f0ca3f89cd77413abff",
+        "width": 864,
+        "height": 1152
+      },
+      "png": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-outfit-master-v2-4k.png",
+        "path": "character/v2-video-kit/grobie-outfit-master-v2-4k.png",
+        "bytes": 5140898,
+        "md5": "3d1224fe771bcf26a02d9d9895efc959",
+        "width": 3072,
+        "height": 4096
+      },
+      "thumb": {
+        "url": "https://grobie.slopcore.army/thumbs/grobie-outfit-master-v2.webp",
+        "path": "thumbs/grobie-outfit-master-v2.webp",
+        "bytes": 41606,
+        "md5": "c5db2ba4e844c42dd72466ecfb6a6585",
+        "width": 864,
+        "height": 1152
+      }
+    },
+    {
+      "id": "head-turnaround-v2",
+      "title": "Head turnaround v2",
+      "role": "Head lock: front, three-quarter, profile, and back",
+      "jpg": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-head-turnaround-v2.jpg",
+        "path": "character/v2-video-kit/grobie-head-turnaround-v2.jpg",
+        "bytes": 293266,
+        "md5": "c219a3388a80e5e2cbc960453cb5cbb3",
+        "width": 1280,
+        "height": 720
+      },
+      "png": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-head-turnaround-v2-4k.png",
+        "path": "character/v2-video-kit/grobie-head-turnaround-v2-4k.png",
+        "bytes": 5274741,
+        "md5": "3ae94adc8e149f28af1932b8d3368958",
+        "width": 3840,
+        "height": 2160
+      },
+      "thumb": {
+        "url": "https://grobie.slopcore.army/thumbs/grobie-head-turnaround-v2.webp",
+        "path": "thumbs/grobie-head-turnaround-v2.webp",
+        "bytes": 34834,
+        "md5": "370a10f220a2f68b0aadc7b1ee8afc96",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "mouth-shapes-v3",
+      "title": "Mouth shapes v3",
+      "role": "Canonical 9-viseme sheet",
+      "jpg": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-mouth-shapes-v3.jpg",
+        "path": "character/v2-video-kit/grobie-mouth-shapes-v3.jpg",
+        "bytes": 551057,
+        "md5": "f4e20f2b6b087b2a082686e18c17620d",
+        "width": 1024,
+        "height": 1024
+      },
+      "png": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-mouth-shapes-v3-4k.png",
+        "path": "character/v2-video-kit/grobie-mouth-shapes-v3-4k.png",
+        "bytes": 16159822,
+        "md5": "9e35ff3037cf375ce27fb9a21a40c0f0",
+        "width": 4096,
+        "height": 4096
+      },
+      "thumb": {
+        "url": "https://grobie.slopcore.army/thumbs/grobie-mouth-shapes-v3.webp",
+        "path": "thumbs/grobie-mouth-shapes-v3.webp",
+        "bytes": 120258,
+        "md5": "872cb4b9e9844383675507684ee95000",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "id": "turnaround-shine-v2",
+      "title": "Shine turnaround v2",
+      "role": "Full-body reference: navy trousers, boots, glowing energy core",
+      "jpg": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-turnaround-shine-v2.jpg",
+        "path": "character/v2-video-kit/grobie-turnaround-shine-v2.jpg",
+        "bytes": 218845,
+        "md5": "255acb7ff7b46ab8b98b48b1c986f44c",
+        "width": 1280,
+        "height": 720
+      },
+      "png": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-turnaround-shine-v2-4k.png",
+        "path": "character/v2-video-kit/grobie-turnaround-shine-v2-4k.png",
+        "bytes": 3754573,
+        "md5": "254e440373b8a571315ea382a47ae3cd",
+        "width": 3840,
+        "height": 2160
+      },
+      "thumb": {
+        "url": "https://grobie.slopcore.army/thumbs/grobie-turnaround-shine-v2.webp",
+        "path": "thumbs/grobie-turnaround-shine-v2.webp",
+        "bytes": 23342,
+        "md5": "491e235edbc39ad0c0fcbbad9145274b",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "proportions-master-v1",
+      "title": "Proportions master v1",
+      "role": "PRIMARY body-proportions lock: tall and slim, about 6.8 heads, two-hand grip on the anchor shank",
+      "jpg": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-proportions-master-v1.jpg",
+        "path": "character/v2-video-kit/grobie-proportions-master-v1.jpg",
+        "bytes": 306307,
+        "md5": "118825eb55e1153ece7a28ff53918df4",
+        "width": 864,
+        "height": 1152
+      },
+      "png": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-proportions-master-v1-4k.png",
+        "path": "character/v2-video-kit/grobie-proportions-master-v1-4k.png",
+        "bytes": 7609929,
+        "md5": "e8330457498c9631dcf46ceee805f729",
+        "width": 3072,
+        "height": 4096
+      },
+      "thumb": {
+        "url": "https://grobie.slopcore.army/thumbs/grobie-proportions-master-v1.webp",
+        "path": "thumbs/grobie-proportions-master-v1.webp",
+        "bytes": 92096,
+        "md5": "eef3da806cd93f5dd06eca29d460724c",
+        "width": 864,
+        "height": 1152
+      }
+    }
+  ],
+  "packs": {
+    "reference": {
+      "title": "Reference Pack",
+      "items": [
+        "character-sheet-v2",
+        "outfit-master-v2",
+        "head-turnaround-v2",
+        "mouth-shapes-v3",
+        "turnaround-shine-v2",
+        "proportions-master-v1"
+      ]
+    },
+    "anchor": {
+      "title": "Anchor Pack",
+      "items": [
+        "proportions-master-v1",
+        "grabs-anchor-v2",
+        "going-for-anchor-v1"
+      ]
+    },
+    "cyber_mech": {
+      "title": "Cyber-Mech Direction (Section 9)",
+      "items": [
+        "cyber-mech-v1"
+      ]
+    }
+  },
+  "extras": [
+    {
+      "id": "grabs-anchor-v2",
+      "title": "Grobie grabs his anchor",
+      "role": "Approved grab pose. Anchor Pack.",
+      "jpg": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-grabs-anchor-v2.jpg",
+        "path": "character/v2-video-kit/grobie-grabs-anchor-v2.jpg",
+        "bytes": 367195,
+        "md5": "0af35e062b6aa1b09ee129709ee8ed5a",
+        "width": 1152,
+        "height": 864
+      },
+      "png": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-grabs-anchor-v2-4k.png",
+        "path": "character/v2-video-kit/grobie-grabs-anchor-v2-4k.png",
+        "bytes": 9270526,
+        "md5": "530d1dc73ba28e961131609c974338a2",
+        "width": 4096,
+        "height": 3072
+      },
+      "thumb": {
+        "url": "https://grobie.slopcore.army/thumbs/grobie-grabs-anchor-v2.webp",
+        "path": "thumbs/grobie-grabs-anchor-v2.webp",
+        "bytes": 64328,
+        "md5": "27b045e7beac1fb4434c51408dacdc67",
+        "width": 800,
+        "height": 600
+      }
+    },
+    {
+      "id": "going-for-anchor-v1",
+      "title": "Grobie going for his anchor",
+      "role": "Approved anchor-lunge gag art. Anchor Pack.",
+      "jpg": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-going-for-anchor-v1.jpg",
+        "path": "character/v2-video-kit/grobie-going-for-anchor-v1.jpg",
+        "bytes": 403073,
+        "md5": "fc67ff65a16108c7259c2ee3afe2c233",
+        "width": 1152,
+        "height": 864
+      },
+      "png": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-going-for-anchor-v1-4k.png",
+        "path": "character/v2-video-kit/grobie-going-for-anchor-v1-4k.png",
+        "bytes": 10196525,
+        "md5": "c8895b5c6f8bb9f5904b11e98988d1db",
+        "width": 4096,
+        "height": 3072
+      },
+      "thumb": {
+        "url": "https://grobie.slopcore.army/thumbs/grobie-going-for-anchor-v1.webp",
+        "path": "thumbs/grobie-going-for-anchor-v1.webp",
+        "bytes": 78360,
+        "md5": "6313f5592129109a511ab2705ae4ac2d",
+        "width": 800,
+        "height": 600
+      }
+    },
+    {
+      "id": "cyber-mech-v1",
+      "title": "Cyber-mech direction v1",
+      "role": "Section 9 look basis: less anime, more real human or real bot look. Direction reference, not a replacement for the six canonical locks.",
+      "jpg": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-cyber-mech-v1.jpg",
+        "path": "character/v2-video-kit/grobie-cyber-mech-v1.jpg",
+        "bytes": 295507,
+        "md5": "7803a184131b22b1e377b6101abe585b",
+        "width": 1280,
+        "height": 720
+      },
+      "png": {
+        "url": "https://grobie.slopcore.army/character/v2-video-kit/grobie-cyber-mech-v1-4k.png",
+        "path": "character/v2-video-kit/grobie-cyber-mech-v1-4k.png",
+        "bytes": 5747666,
+        "md5": "8ce08b26d5b741891b0994e6a88b8a48",
+        "width": 3840,
+        "height": 2160
+      },
+      "thumb": {
+        "url": "https://grobie.slopcore.army/thumbs/grobie-cyber-mech-v1.webp",
+        "path": "thumbs/grobie-cyber-mech-v1.webp",
+        "bytes": 43936,
+        "md5": "68b854c5fd482f743ac7e49e7f0e53c7",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "warp978-song-v2",
+      "title": "WARP978 v2 lyrics",
+      "role": "Lyrics for the first Grobie music video, written by The Bard. CC0 1.0 Universal.",
+      "license": "CC0-1.0",
+      "url": "https://grobie.slopcore.army/character/v2-video-kit/extras/warp978-song-v2.md",
+      "path": "character/v2-video-kit/extras/warp978-song-v2.md",
+      "bytes": 9128,
+      "md5": "be190f99f5d83dc35d71e1a79fe7664c"
+    },
+    {
+      "id": "warp978-cue-sheet-v2",
+      "title": "WARP978 v2 cue sheet",
+      "role": "Machine-readable cue sheet for the WARP978 v2 lyrics. CC0 1.0 Universal.",
+      "license": "CC0-1.0",
+      "url": "https://grobie.slopcore.army/character/v2-video-kit/extras/warp978-cue-sheet-v2.csv",
+      "path": "character/v2-video-kit/extras/warp978-cue-sheet-v2.csv",
+      "bytes": 752,
+      "md5": "d53a5d8094613fb200f0df5fa78b1e6f"
+    }
+  ],
+  "prompt": {
+    "positive": "Bald sapphire-blue crystal-glass head, glowing soft-white eyes with gold iris ring, gold brow-and-temple circuits, slight closed-mouth smile. Glass neck and hands, warm-white glow, no bones. Navy double-breasted coat, gold buttons and piping, stand-up V-collar, 8-point gold star on each collar side, gold fringe epaulettes, navy cuffs, two gold bands and star, white-on-top yin-yang on upper-left chest, navy trousers and boots.",
+    "positive_word_count": 60,
+    "negative": [
+      "No hair.",
+      "No human skin.",
+      "No beard.",
+      "No face drift; resample from the head lock if the face slips.",
+      "No extra or moved badges; do not change the yin-yang size, side, or white-on-top orientation.",
+      "No text in frame.",
+      "No gore or creepy skeleton close-ups. Pure light core only; no bones.",
+      "Mouth interior is gold light, never human pink or a peach tongue.",
+      "Collar style stays with the outfit master (stand-up V-collar, small 8-point stars).",
+      "Never generate a big-headed or short-legged Grobie; attach the proportions master on every full-body or action shot.",
+      "PG-13 only.",
+      "No adult content.",
+      "No real-person likeness."
+    ],
+    "plain_text": "https://grobie.slopcore.army/PROMPT.txt"
+  },
+  "never_do": [
+    "No hair.",
+    "No human skin.",
+    "No beard.",
+    "No face drift; resample from the head lock if the face slips.",
+    "No extra or moved badges; do not change the yin-yang size, side, or white-on-top orientation.",
+    "No text in frame.",
+    "No gore or creepy skeleton close-ups. Pure light core only; no bones.",
+    "Mouth interior is gold light, never human pink or a peach tongue.",
+    "Collar style stays with the outfit master (stand-up V-collar, small 8-point stars).",
+    "Never generate a big-headed or short-legged Grobie; attach the proportions master on every full-body or action shot.",
+    "PG-13 only.",
+    "No adult content.",
+    "No real-person likeness."
+  ],
+  "palette": {
+    "navy_coat": "#13182B",
+    "gold_trim": "#C29E7C",
+    "glass_blue": "#34374B",
+    "inner_core_glow": "#F3DBBC",
+    "eye_glow": "#FEF7F0",
+    "gold_iris_ring": "#CEB6A8",
+    "background": "#2B2B2B"
+  },
+  "proportions": {
+    "height": "6 ft 2 in",
+    "height_cm": 188,
+    "heads": 6.8,
+    "build": "tall and slim, small head, long neck, long legs (about half his height), knee-length coat",
+    "anchor_grip": "two-hand fist grip on the anchor shank just below the ring",
+    "lock": "https://grobie.slopcore.army/character/v2-video-kit/grobie-proportions-master-v1.jpg",
+    "lock_png": "https://grobie.slopcore.army/character/v2-video-kit/grobie-proportions-master-v1-4k.png"
+  },
+  "visemes": {
+    "sheet": "https://grobie.slopcore.army/character/v2-video-kit/grobie-mouth-shapes-v3.jpg",
+    "sheet_png": "https://grobie.slopcore.army/character/v2-video-kit/grobie-mouth-shapes-v3-4k.png",
+    "order": "left to right, top to bottom",
+    "cells": [
+      {
+        "cell": 1,
+        "viseme": "Rest",
+        "description": "Slight closed-mouth smile (default rest)."
+      },
+      {
+        "cell": 2,
+        "viseme": "AH",
+        "description": "Jaw dropped, tall open oval, gold-lit interior."
+      },
+      {
+        "cell": 3,
+        "viseme": "EE",
+        "description": "Wide smile, upper teeth visible."
+      },
+      {
+        "cell": 4,
+        "viseme": "OH",
+        "description": "Rounded mid-open O."
+      },
+      {
+        "cell": 5,
+        "viseme": "OO/W",
+        "description": "Lips pursed and forward, small rounded opening."
+      },
+      {
+        "cell": 6,
+        "viseme": "M/B/P",
+        "description": "Lips closed and pressed."
+      },
+      {
+        "cell": 7,
+        "viseme": "F/V",
+        "description": "Lower lip drawn up, light teeth contact, small smile."
+      },
+      {
+        "cell": 8,
+        "viseme": "L/TH",
+        "description": "Mouth open, tongue tip visible. Known flaw: the tongue is still peach / human flesh; it should be gold light."
+      },
+      {
+        "cell": 9,
+        "viseme": "S",
+        "description": "Narrow opening, slight smile, teeth lightly visible."
+      }
+    ]
+  },
+  "voice": {
+    "written_name": "Grobie",
+    "spoken_name": "Groby",
+    "pronunciation": "GROH-bee",
+    "spec": "Calm, warm, confident mid-low baritone. Measured naval-officer pace, about 150 wpm. Crisp diction, slight synthetic shimmer, never monotone. American English.",
+    "style": "D-minor chord baritone, fully dry, with chorus, no echo and no hall tail.",
+    "engine": "Kokoro-82M",
+    "engine_license": "Apache-2.0",
+    "primary_is": "approved_signature_voice"
+  },
+  "mandatory_first_video_line": {
+    "text": "I am Groby. The anchor holds, and so do I.",
+    "written_name": "Grobie",
+    "spoken_name": "Groby",
+    "pronunciation": "GROH-bee",
+    "wav": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-signature-line-1-anchor-holds.wav",
+    "mp3": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-signature-line-1-anchor-holds.mp3"
+  },
+  "audio": {
+    "primary": [
+      {
+        "id": "approved-signature-reference",
+        "title": "Approved signature reference",
+        "role": "Primary approved signature voice",
+        "wav": {
+          "format": "wav",
+          "sample_rate_hz": 44100,
+          "bit_depth": 16,
+          "channels": 2,
+          "codec": "pcm_s16le",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/APPROVED-grobie-signature-reference-20261123.wav",
+          "path": "character/v2-video-kit/audio/APPROVED-grobie-signature-reference-20261123.wav",
+          "bytes": 508834,
+          "md5": "4c9cd4daf9784b2bf8d52ee2eb2b507d"
+        },
+        "mp3": {
+          "format": "mp3",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/APPROVED-grobie-signature-reference-20261123.mp3",
+          "path": "character/v2-video-kit/audio/APPROVED-grobie-signature-reference-20261123.mp3",
+          "bytes": 70887,
+          "md5": "92f2b8600e1bb76e067d7f4b3f638258"
+        }
+      },
+      {
+        "id": "mandatory-line",
+        "title": "Mandatory first-video line",
+        "role": "I am Groby. The anchor holds, and so do I.",
+        "wav": {
+          "format": "wav",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-signature-line-1-anchor-holds.wav",
+          "path": "character/v2-video-kit/audio/grobie-signature-line-1-anchor-holds.wav",
+          "bytes": 797498,
+          "md5": "317f60974295c3821ee79482250f3347"
+        },
+        "mp3": {
+          "format": "mp3",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-signature-line-1-anchor-holds.mp3",
+          "path": "character/v2-video-kit/audio/grobie-signature-line-1-anchor-holds.mp3",
+          "bytes": 110384,
+          "md5": "33ef4a341bdeb5c6123d8fdec6e8a780"
+        }
+      },
+      {
+        "id": "signature-v1",
+        "title": "Extended signature voice",
+        "role": "Extended signature voice reference",
+        "wav": {
+          "format": "wav",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-signature-v1.wav",
+          "path": "character/v2-video-kit/audio/grobie-signature-v1.wav",
+          "bytes": 1422670,
+          "md5": "6e6e4c73a6e029c5e3bd92a46052de4c"
+        },
+        "mp3": {
+          "format": "mp3",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-signature-v1.mp3",
+          "path": "character/v2-video-kit/audio/grobie-signature-v1.mp3",
+          "bytes": 195021,
+          "md5": "f6a5af9d2696df94abbade3f145e7b7f"
+        }
+      },
+      {
+        "id": "death-deep",
+        "title": "Base DEATH-style voice",
+        "role": "Approved base DEATH-style voice",
+        "wav": {
+          "format": "wav",
+          "sample_rate_hz": 24000,
+          "bit_depth": 16,
+          "channels": 2,
+          "codec": "pcm_s16le",
+          "note": "Original master is 24 kHz PCM. Other primary WAVs are 44.1 kHz.",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-death-deep.wav",
+          "path": "character/v2-video-kit/audio/grobie-death-deep.wav",
+          "bytes": 852260,
+          "md5": "5a1c4b88fd5285e27791150a9b32e1fb"
+        },
+        "mp3": {
+          "format": "mp3",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-death-deep.mp3",
+          "path": "character/v2-video-kit/audio/grobie-death-deep.mp3",
+          "bytes": 120332,
+          "md5": "d5d863ed76e4bfe4dc549708f4c10bf3"
+        }
+      }
+    ],
+    "wip_alternate": [
+      {
+        "id": "tv-match-v2-signature-line",
+        "title": "TV-style v2 signature line",
+        "role": "Work-in-progress alternate voice target — SLOPCORE TV style v2, not yet owner-reviewed. The approved signature voice is primary.",
+        "mp3": {
+          "format": "mp3",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-tv-match-v2-signature-line.mp3",
+          "path": "character/v2-video-kit/audio/grobie-tv-match-v2-signature-line.mp3",
+          "bytes": 248937,
+          "md5": "2fa09c5d8e1fd7d6e59f5bc39f04e5ba"
+        }
+      },
+      {
+        "id": "tv-match-v2-welcome",
+        "title": "TV-style v2 welcome",
+        "role": "Work-in-progress alternate voice target — SLOPCORE TV style v2, not yet owner-reviewed. The approved signature voice is primary.",
+        "mp3": {
+          "format": "mp3",
+          "url": "https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-tv-match-v2-welcome.mp3",
+          "path": "character/v2-video-kit/audio/grobie-tv-match-v2-welcome.mp3",
+          "bytes": 219471,
+          "md5": "b1f6b233a5c2bd508b85fb24ca72fd66"
+        }
+      }
+    ]
+  },
+  "docs": {
+    "character_json": "https://grobie.slopcore.army/character.json",
+    "prompt_txt": "https://grobie.slopcore.army/PROMPT.txt",
+    "character_bible": "https://grobie.slopcore.army/character/CHARACTER-BIBLE.md",
+    "video_kit": "https://grobie.slopcore.army/character/v2-video-kit/VIDEO-KIT.md",
+    "readme": "https://grobie.slopcore.army/character/v2-video-kit/README.md",
+    "license": "https://grobie.slopcore.army/LICENSE.txt",
+    "gallery": "https://grobie.slopcore.army/gallery.json",
+    "gpl": "https://grobie.slopcore.army/tools/LICENSE-GPLv3.txt",
+    "third_party_licenses": "https://grobie.slopcore.army/tools/THIRD-PARTY-LICENSES.md",
+    "tools_readme": "https://grobie.slopcore.army/tools/README.md",
+    "warp978_lyrics": "https://grobie.slopcore.army/character/v2-video-kit/extras/warp978-song-v2.md",
+    "warp978_cue_sheet": "https://grobie.slopcore.army/character/v2-video-kit/extras/warp978-cue-sheet-v2.csv",
+    "mit": "https://grobie.slopcore.army/tools/LICENSE-MIT.txt",
+    "grobie_mv": "https://grobie.slopcore.army/tools/grobie-mv/README.md"
+  },
+  "downloads": {
+    "piper_video_kit_zip": "https://grobie.slopcore.army/packs/grobie-piper-video-kit.zip",
+    "full_archive_zip": "https://grobie.slopcore.army/packs/grobie-full-archive.zip",
+    "free_tools_zip": "https://grobie.slopcore.army/tools/grobie-free-tools.zip",
+    "free_tools_gplv3_zip": "https://grobie.slopcore.army/tools/grobie-free-tools-gplv3.zip"
+  },
+  "tools": {
+    "title": "Free Open-Source Tools",
+    "license": "Free commercially usable open-source licenses, per program",
+    "licenses": {
+      "grobie-voice": "GNU GPLv3",
+      "grobie-image": "GNU GPLv3",
+      "build_character_sheet_v2.py": "GNU GPLv3",
+      "grobie-mv": "MIT"
+    },
+    "license_url": "https://grobie.slopcore.army/tools/LICENSE-GPLv3.txt",
+    "mit_url": "https://grobie.slopcore.army/tools/LICENSE-MIT.txt",
+    "third_party": "https://grobie.slopcore.army/tools/THIRD-PARTY-LICENSES.md",
+    "readme": "https://grobie.slopcore.army/tools/README.md",
+    "zip": {
+      "url": "https://grobie.slopcore.army/tools/grobie-free-tools.zip",
+      "path": "tools/grobie-free-tools.zip",
+      "bytes": 77527,
+      "md5": "69c3155e7fd5e92d9a606fb037ed9c17"
+    },
+    "zip_gplv3": {
+      "url": "https://grobie.slopcore.army/tools/grobie-free-tools-gplv3.zip",
+      "path": "tools/grobie-free-tools-gplv3.zip",
+      "bytes": 61138,
+      "md5": "a908a22be351d17f225cd492d1bfe06d"
+    },
+    "programs": [
+      {
+        "id": "grobie-voice",
+        "license": "GNU GPLv3",
+        "path": "tools/grobie-voice/",
+        "url": "https://grobie.slopcore.army/tools/grobie-voice/README.md"
+      },
+      {
+        "id": "grobie-image",
+        "license": "GNU GPLv3",
+        "path": "tools/grobie-image/",
+        "url": "https://grobie.slopcore.army/tools/grobie-image/README.md"
+      },
+      {
+        "id": "build_character_sheet_v2.py",
+        "license": "GNU GPLv3",
+        "path": "tools/build_character_sheet_v2.py",
+        "url": "https://grobie.slopcore.army/tools/build_character_sheet_v2.py"
+      },
+      {
+        "id": "grobie-mv",
+        "license": "MIT",
+        "path": "tools/grobie-mv/",
+        "url": "https://grobie.slopcore.army/tools/grobie-mv/README.md"
+      }
+    ],
+    "note": "Models, virtualenvs, SoundFonts, and reference media are not bundled. Character art remains CC0 1.0. Non-commercial-only models and paid or rented GPU services are excluded."
+  }
+}

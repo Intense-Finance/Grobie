@@ -1,0 +1,11 @@
+section,label,bar_start,bar_end,start_seconds,end_seconds,start_mm_ss,end_mm_ss
+cold-open,"Cold open (spoken, no beat, low hum only)",1,4,0.0,8.0,0:00.00,0:08.00
+intro,"Intro (stomp + synth pulse kicks in)",5,12,8.0,24.0,0:08.00,0:24.00
+verse-1,"Verse 1",13,28,24.0,56.0,0:24.00,0:56.00
+pre-chorus,"Pre-chorus (build)",29,32,56.0,64.0,0:56.00,1:04.00
+chorus-1,"Chorus 1",33,48,64.0,96.0,1:04.00,1:36.00
+verse-2,"Verse 2 (shadow flashback)",49,64,96.0,128.0,1:36.00,2:08.00
+chorus-2,"Chorus 2",65,80,128.0,160.0,2:08.00,2:40.00
+bridge,"Bridge (half-time heartbeat)",81,88,160.0,176.0,2:40.00,2:56.00
+final-chorus,"Final chorus (key up, full crew)",89,106,176.0,212.0,2:56.00,3:32.00
+outro,"Outro (spoken, music out)",107,112,212.0,224.0,3:32.00,3:44.00

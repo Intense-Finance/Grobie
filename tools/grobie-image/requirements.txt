@@ -1,0 +1,12 @@
+# First-party grobie-image runtime (install into a venv).
+# Optional heavy deps (torch, transformers) are used by aim/proportions checks.
+# Models are NOT included.
+numpy
+Pillow
+rembg
+onnxruntime
+scikit-image
+scipy
+# optional, for consistency embeddings and pose/aim checks:
+# torch
+# transformers

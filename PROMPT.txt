@@ -1,0 +1,59 @@
+GROBIE character prompt kit
+License: CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/). Request (not a license condition): keep it PG-13.
+Home: https://grobie.slopcore.army/
+Machine-readable companion: https://grobie.slopcore.army/character.json
+
+This file is plain UTF-8 text for copy-paste or automated ingest by any image, video, or voice tool. No vendor plugin or internal script is required.
+
+======== POSITIVE PROMPT (60 words) ========
+Bald sapphire-blue crystal-glass head, glowing soft-white eyes with gold iris ring, gold brow-and-temple circuits, slight closed-mouth smile. Glass neck and hands, warm-white glow, no bones. Navy double-breasted coat, gold buttons and piping, stand-up V-collar, 8-point gold star on each collar side, gold fringe epaulettes, navy cuffs, two gold bands and star, white-on-top yin-yang on upper-left chest, navy trousers and boots.
+
+======== NEGATIVE / NEVER-DO ========
+No hair.
+No human skin.
+No beard.
+No face drift; resample from the head lock if the face slips.
+No extra or moved badges; do not change the yin-yang size, side, or white-on-top orientation.
+No text in frame.
+No gore or creepy skeleton close-ups. Pure light core only; no bones.
+Mouth interior is gold light, never human pink or a peach tongue.
+Collar style stays with the outfit master (stand-up V-collar, small 8-point stars).
+Never generate a big-headed or short-legged Grobie; attach the proportions master on every full-body or action shot.
+PG-13 only.
+No adult content.
+No real-person likeness.
+
+======== BADGE, COLOR, AND PROPORTION LOCKS ========
+Height: 6 ft 2 in / 188 cm, about 6.8 heads tall, slim build, long neck, long legs (about half his height), knee-length coat.
+Lead plate: https://grobie.slopcore.army/character/v2-video-kit/grobie-character-sheet-v2.jpg
+Lead plate 4K PNG: https://grobie.slopcore.army/character/v2-video-kit/grobie-character-sheet-v2-4k.png
+Proportions lock: https://grobie.slopcore.army/character/v2-video-kit/grobie-proportions-master-v1.jpg
+Outfit lock: https://grobie.slopcore.army/character/v2-video-kit/grobie-outfit-master-v2.jpg
+Head lock: https://grobie.slopcore.army/character/v2-video-kit/grobie-head-turnaround-v2.jpg
+Viseme sheet: https://grobie.slopcore.army/character/v2-video-kit/grobie-mouth-shapes-v3.jpg
+Shine turnaround: https://grobie.slopcore.army/character/v2-video-kit/grobie-turnaround-shine-v2.jpg
+
+Yin-yang: on the coat's upper-left chest (character's left, viewer's right), about one-fifth of chest width, white half on top, black half below, in a thin gold ring. Do not center it on the sternum, move it to the back, or change its size or orientation.
+Collar: stand-up navy collar with a V at the throat. One small gold 8-point star on each side of the collar front. Do not use a tall split-tab collar.
+Epaulettes: gold fringe epaulettes on both shoulders.
+Cuffs: navy cuffs with two gold bands and a gold 8-point star on the outer face of each cuff.
+Coat: opaque navy, double-breasted, two vertical columns of gold buttons, gold piping along the front edges, pockets, and hem. No back star, no extra chest badges, no skeleton under the coat.
+
+Hex palette:
+Navy coat: #13182B
+Gold trim: #C29E7C
+Glass blue: #34374B
+Inner core glow: #F3DBBC
+Eye glow: #FEF7F0 (gold iris ring about #CEB6A8)
+Background: #2B2B2B
+
+======== MANDATORY FIRST-VIDEO LINE ========
+I am Groby. The anchor holds, and so do I.
+
+Written as "Grobie". Spoken "Groby" (GROH-bee).
+Use the approved primary signature voice (Kokoro-82M, Apache-2.0):
+https://grobie.slopcore.army/character/v2-video-kit/audio/APPROVED-grobie-signature-reference-20261123.wav
+https://grobie.slopcore.army/character/v2-video-kit/audio/APPROVED-grobie-signature-reference-20261123.mp3
+Line reference:
+https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-signature-line-1-anchor-holds.wav
+https://grobie.slopcore.army/character/v2-video-kit/audio/grobie-signature-line-1-anchor-holds.mp3

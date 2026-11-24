@@ -1,0 +1,49 @@
+NOTICE
+
+Grobie
+Copyright (c) 2026 INTENSE FINANCE, LLC / SLOPCORE.ARMY / SLOPCORE TV
+
+This repository contains first-party character files (CC0 1.0 Universal) and
+first-party software (GNU GPLv3 or MIT, per program). It also documents
+third-party components that are not bundled here, except as you install them
+yourself. Those components remain under their upstream licenses.
+
+A short list (see tools/THIRD-PARTY-LICENSES.md for the working table):
+
+  Kokoro-82M speech model          Apache-2.0
+  kokoro-onnx                      MIT
+  onnxruntime                      MIT
+  Praat / praat-parselmouth        GNU GPLv3
+  Pedalboard                       GNU GPLv3
+  NumPy, SciPy, scikit-image,
+    SoundFile                      BSD-3-Clause
+  Pillow                           MIT-CMU (PIL / Pillow)
+  rembg                            MIT
+  PyTorch (optional)               BSD-style
+  transformers / Hugging Face
+    models (optional)              Apache-2.0
+  piper-tts (optional)             MIT
+  ffmpeg / ffprobe                 LGPL or GPL, depending on the build
+  libx264 (via ffmpeg)             GPL
+  OpenCV (lipsync_mouthmask_v4.py) Apache-2.0
+  fontTools (optional)             MIT
+  Rajdhani (system font, optional) OFL-1.1
+  DejaVu Sans (system font,
+    optional)                      Bitstream Vera
+
+Audio mastering stack used for the WARP978 master (the Offline CPU Song &
+Mastering Engine is coming next and is not in this tree):
+
+  FluidSynth                       LGPL-2.1-or-later
+  FluidR3_GM.sf2 (not bundled)     MIT
+  mido, pyloudnorm                 MIT
+  faster-whisper / Systran
+    small.en (optional, not
+    bundled)                       MIT
+
+Do not use a dependency in a way that conflicts with its license. Character
+art, docs, approved voice clips, and the WARP978 lyrics and cue sheet are CC0
+1.0 and are not covered by the tool licenses.
+
+This NOTICE does not grant trademark rights in SLOPCORE.ARMY, IF.FINANCE,
+INTENSE FINANCE, or Grobie as a mark.

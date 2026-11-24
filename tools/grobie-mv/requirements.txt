@@ -1,0 +1,7 @@
+# First-party grobie-mv runtime (install into a venv).
+# ffmpeg and ffprobe must be installed separately and available on PATH.
+Pillow>=10.0.0
+fonttools>=4.0.0
+# needed by lipsync_mouthmask_v4.py
+numpy
+opencv-python-headless

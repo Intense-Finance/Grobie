@@ -1,0 +1,39 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Secrets and local env (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Model weights (download separately; not part of this tree)
+tools/grobie-voice/models/
+tools/grobie-image/models/
+*.onnx
+*.bin
+!character.json
+
+# Local render / dry-run output
+dryrun/
+sheet-render/
+*.mp4
+*.avi
+
+# Editor
+.idea/
+.vscode/
