@@ -13,7 +13,7 @@
     "request": "Please keep Grobie PG-13 (a request, not a license condition).",
     "voice_engine": "Kokoro-82M",
     "voice_engine_license": "Apache-2.0",
-    "covers": "All Grobie character art, character sheets, the character bible, the video kit, approved voice clips, and the WARP978 v2 lyrics and cue sheet are CC0 1.0 Universal. First-party software tools under /tools/ use free, commercially usable open-source licenses chosen for quality: grobie-voice, grobie-image, and build_character_sheet_v2.py are GNU GPLv3; grobie-mv (assemble_mv.py) is MIT. Upstream dependencies may use any free, commercially usable open-source license (MIT, Apache-2.0, BSD, LGPL, GPL, CC0, OFL, ISC, and others). Non-commercial-only models (InsightFace, FLUX.1-dev, LRS2) and paid or rented GPU services are excluded.",
+    "covers": "All Grobie character art, character sheets, the character bible, the video kit, approved voice clips, and the WARP978 v2 lyrics and cue sheet are CC0 1.0 Universal. First-party software tools under /tools/ use free, commercially usable open-source licenses chosen for quality: grobie-voice, grobie-image, and build_character_sheet_v2.py are GNU GPLv3; grobie-mv (assemble_mv.py, assemble_dc_v2.py (Director's Cut assembler), and lipsync_mouthmask_v4.py (lip-sync mouth mask)) is MIT. Upstream dependencies may use any free, commercially usable open-source license (MIT, Apache-2.0, BSD, LGPL, GPL, CC0, OFL, ISC, and others). Non-commercial-only models (InsightFace, FLUX.1-dev, LRS2) and paid or rented GPU services are excluded.",
     "tools": {
       "policy": "Any free, commercially usable open-source license, chosen for quality.",
       "programs": {
@@ -688,7 +688,28 @@
         "id": "grobie-mv",
         "license": "MIT",
         "path": "tools/grobie-mv/",
-        "url": "https://grobie.slopcore.army/tools/grobie-mv/README.md"
+        "url": "https://grobie.slopcore.army/tools/grobie-mv/README.md",
+        "scripts": [
+          {
+            "file": "assemble_mv.py",
+            "description": "Beat-locked 16:9 music-video assembler. Builds an MP4 from a JSON shot list, a mastered audio file, and beat-grid.json.",
+            "license": "MIT"
+          },
+          {
+            "file": "assemble_dc_v2.py",
+            "description": "Director's Cut assembler. Assembles the cut in a single final H.264 pass for lip-sync close-ups.",
+            "license": "MIT"
+          },
+          {
+            "file": "lipsync_mouthmask_v4.py",
+            "description": "CPU-only, model-free rigid-face mouth-mask lip-sync helper: a smile-curved slit, amber spill, per-viseme width, and a small rate-limited jaw translate. Does not warp the head.",
+            "license": "MIT",
+            "requires": [
+              "numpy",
+              "opencv-python-headless"
+            ]
+          }
+        ]
       }
     ],
     "note": "Models, virtualenvs, SoundFonts, and reference media are not bundled. Character art remains CC0 1.0. Non-commercial-only models and paid or rented GPU services are excluded."

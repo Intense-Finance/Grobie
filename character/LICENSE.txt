@@ -11,7 +11,7 @@ chosen for quality.
 
 2) First-party software tools published under https://grobie.slopcore.army/tools/ each use a free, commercially usable open-source license, chosen for quality:
    - grobie-voice, grobie-image, and build_character_sheet_v2.py: GNU GPLv3. See https://grobie.slopcore.army/tools/LICENSE-GPLv3.txt . The earlier package https://grobie.slopcore.army/tools/grobie-free-tools-gplv3.zip remains available so existing links keep working.
-   - grobie-mv (assemble_mv.py): MIT License. See https://grobie.slopcore.army/tools/LICENSE-MIT.txt
+   - grobie-mv (assemble_mv.py, assemble_dc_v2.py (Director's Cut assembler), and lipsync_mouthmask_v4.py (lip-sync mouth mask)): MIT License. See https://grobie.slopcore.army/tools/LICENSE-MIT.txt
    The combined package is https://grobie.slopcore.army/tools/grobie-free-tools.zip
 
 3) Upstream third-party dependencies may use any free, commercially usable open-source license (MIT, Apache-2.0, BSD, LGPL, GPL, CC0, OFL, ISC, and others). See https://grobie.slopcore.army/tools/THIRD-PARTY-LICENSES.md
